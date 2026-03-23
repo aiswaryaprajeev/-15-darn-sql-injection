@@ -1,0 +1,2 @@
+## Task 15 - Darn SQL Injection
+This project demonstrates SQL Injection testing in DVWA across different security levels. At Low, UNION queries easily reveal all users. At Medium, modifying the POST body achieves the same result. At High, prepared statements block direct listing, requiring blind SQLi to infer data step by step. The exercise highlights why secure coding practices are critical to defending against SQL injection attacks.
